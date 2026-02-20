@@ -9,6 +9,6 @@
       "src": "/(.*)",
       "dest": "/api/admin/index.php"
     }
-  ],
-  "buildCommand": "echo 'Building FAQ Admin...'"
+  ]
+  ]
 }
