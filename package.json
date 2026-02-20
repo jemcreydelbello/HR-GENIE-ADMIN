@@ -1,0 +1,15 @@
+{
+  "name": "faq-admin",
+  "version": "1.0.0",
+  "description": "FAQ Admin Dashboard",
+  "main": "api/admin/index.php",
+  "scripts": {
+    "build": "echo 'Building admin app'"
+  },
+  "keywords": ["faq", "admin", "dashboard"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  }
+}

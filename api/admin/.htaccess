@@ -1,0 +1,8 @@
+<FilesMatch "\.php$">
+    Deny from all
+</FilesMatch>
+
+# Allow access to files but prevent script execution
+<Files "*">
+    Allow from all
+</Files>

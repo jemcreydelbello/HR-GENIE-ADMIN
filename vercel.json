@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/admin/index.php"
+    }
+  ],
+  "buildCommand": "echo 'Building FAQ Admin...'"
+}
